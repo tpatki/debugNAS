@@ -6,7 +6,7 @@ cd NAS-MZ/BT-MZ/power
 
 cd ../../SP-MZ/power
 #msub -V rapl-runs-small.msub
-msub test-me.msub
+msub -V test-me.msub
 
 cd ../../LU-MZ/power
 #msub -V rapl-runs-small.msub
