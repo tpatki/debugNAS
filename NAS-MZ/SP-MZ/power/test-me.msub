@@ -5,11 +5,11 @@
 #MSUB -q pbatch
 #MSUB -m abe
 #MSUB -M rountree@llnl.gov
-#MSUB -l walltime=00:30:00
+#MSUB -l walltime=00:55:00
 
 set -x
 
-i=16
+i=4
 minthreads=16
 
 export PKG_MINW_MINS=0x38198
@@ -48,4 +48,5 @@ export READ_ONLY=1
                 echo 'turbo: 1 '>> info
 
         	srun --nodes=1 --ntasks=1 -e f.err ../../../bin/sp-mz.C.1
+#        	srun --nodes=1 --ntasks=1 -e f.err papiex -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/sp-mz.B.1
 #        	srun --nodes=1 --ntasks=1 -e f.err papiex -e PAPI_L3_TCA -e PAPI_L3_TCM ../../../bin/sp-mz.B.1
