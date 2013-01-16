@@ -4,7 +4,8 @@
 
 make bt-mz CLASS=A NPROCS=16
 
-make -j8 bt-mz CLASS=B NPROCS=1
+make bt-mz CLASS=B NPROCS=1
+make  bt-mz CLASS=C NPROCS=1
 #make -j8 bt-mz CLASS=B NPROCS=2
 #make -j8 bt-mz CLASS=B NPROCS=4
 #make -j8 bt-mz CLASS=B NPROCS=8

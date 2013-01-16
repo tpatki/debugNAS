@@ -1,15 +1,15 @@
 #!/bin/bash
 
 cd NAS-MZ/BT-MZ/power
-#msub -V rapl-runs-small.msub
+msub rapl-runs-small.msub
 #msub turbo-old-lib.msub
 
 cd ../../SP-MZ/power
-#msub -V rapl-runs-small.msub
-msub -V test-me.msub
+msub rapl-runs-small.msub
+#msub -V test-me.msub
 
 cd ../../LU-MZ/power
-#msub -V rapl-runs-small.msub
+msub rapl-runs-small.msub
 
 
 #cd ../../../lulesh-oct30
