@@ -1,0 +1,132 @@
+SLURM_CHECKPOINT_IMAGE_DIR=/var/opt/moab
+SLURM_NODELIST=rzmerl129
+SED=sed
+SLURM_JOB_NAME=test-me.msub
+MANPATH=/usr/local/tools/papiex-1.0.3/man:/usr/local/tools/monitor-1.0/man:/usr/local/tools/papi-4.2.1/man:/usr/local/tools/mvapich2-intel-debug-1.7/man:/usr/local/tools/dotkit/dotkit/man:/usr/man:/usr/share/man:/usr/local/man:/usr/X11R6/man:/usr/lib64/mvapich/default/man
+SLURMD_NODENAME=rzmerl129
+SLURM_TOPOLOGY_ADDR=rzmerl129
+HOSTNAME=rzmerl129
+BYOBU_WINDOWS=/g/g24/rountree/.byobu/windows
+SLURM_PRIO_PROCESS=0
+SHELL=/bin/bash
+TERM=screen-bce
+WISECONFIGDIR=/usr/share/wise2/
+HISTSIZE=50
+TMPDIR=/tmp
+SLURM_TOPOLOGY_ADDR_PATTERN=node
+SSH_CLIENT=134.9.48.244 43207 622
+READ_ONLY=1
+CVSROOT=/usr/gapps/asde/cvs-vault
+BYOBU_CONFIG_DIR=/g/g24/rountree/.byobu
+QTDIR=/usr/lib64/qt-3.3
+READLINK=readlink
+QTINC=/usr/lib64/qt-3.3/include
+SSH_TTY=/dev/pts/96
+LC_ALL=C
+MSR_PP0_POWER_LIMIT=0x0
+SLURM_NNODES=1
+USER=rountree
+LD_LIBRARY_PATH=/usr/local/tools/papiex-1.0.3/lib:/usr/local/tools/monitor-1.0/lib:/usr/local/tools/papi-4.2.1/lib:/g/g24/rountree/local/research/libmsr/lib:/usr/local/tools/mvapich2-intel-debug-1.7/lib:/g/g24/rountree/local/lib
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.tbz=01;31:*.tbz2=01;31:*.bz=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:
+_dk_shell=bash
+BYOBU_RUN_DIR=/dev/shm/byobu-rountree-OmoDj40D
+PP0_MINW_MINS=0x38198
+PFTP_CONFIG_FILENAME=/etc/pftp_config
+ENV=/g/g24/rountree/.kshrc
+SLURM_JOBID=665650
+SSH_AUTH_SOCK=/g/g24/rountree/.byobu/.ssh-agent
+HOST_GRP=linux
+NSS_STRICT_NOFORK=DISABLED
+TERMCAP=SC|screen-bce|VT 100/ANSI X3.64 virtual terminal:\
+	:DO=\E[%dB:LE=\E[%dD:RI=\E[%dC:UP=\E[%dA:bs:bt=\E[Z:\
+	:cd=\E[J:ce=\E[K:cl=\E[H\E[J:cm=\E[%i%d;%dH:ct=\E[3g:\
+	:do=^J:nd=\E[C:pt:rc=\E8:rs=\Ec:sc=\E7:st=\EH:up=\EM:\
+	:le=^H:bl=^G:cr=^M:it#8:ho=\E[H:nw=\EE:ta=^I:is=\E)0:\
+	:li#41:co#167:am:xn:xv:LP:sr=\EM:al=\E[L:AL=\E[%dL:\
+	:cs=\E[%i%d;%dr:dl=\E[M:DL=\E[%dM:dc=\E[P:DC=\E[%dP:\
+	:im=\E[4h:ei=\E[4l:mi:IC=\E[%d@:ks=\E[?1h\E=:\
+	:ke=\E[?1l\E>:vi=\E[?25l:ve=\E[34h\E[?25h:vs=\E[34l:\
+	:ti=\E[?1049h:te=\E[?1049l:us=\E[4m:ue=\E[24m:so=\E[3m:\
+	:se=\E[23m:mb=\E[5m:md=\E[1m:mr=\E[7m:me=\E[m:ms:\
+	:Co#8:pa#64:AF=\E[3%dm:AB=\E[4%dm:op=\E[39;49m:AX:\
+	:vb=\Eg:G0:as=\E(0:ae=\E(B:\
+	:ac=\140\140aaffggjjkkllmmnnooppqqrrssttuuvvwwxxyyzz{{||}}~~..--++,,hhII00:\
+	:po=\E[5i:pf=\E[4i:k0=\E[10~:k;=\E[21~:F1=\E[23~:\
+	:F3=\E[1;2P:F4=\E[1;2Q:F5=\E[1;2R:F6=\E[1;2S:\
+	:F7=\E[15;2~:F8=\E[17;2~:F9=\E[18;2~:FA=\E[19;2~:kb=:\
+	:K2=\EOE:kB=\E[Z:kF=\E[1;2B:kR=\E[1;2A:*4=\E[3;2~:\
+	:*7=\E[1;2F:#2=\E[1;2H:#3=\E[2;2~:#4=\E[1;2D:%c=\E[6;2~:\
+	:%e=\E[5;2~:%i=\E[1;2C:kh=\E[1~:@1=\E[1~:kH=\E[4~:\
+	:@7=\E[4~:kN=\E[6~:kP=\E[5~:kI=\E[2~:kD=\E[3~:ku=\EOA:\
+	:kd=\EOB:kr=\EOC:kl=\EOD:km:
+DK_UEQRU=1
+BYOBU_BACKEND=screen
+SLURM_TASKS_PER_NODE=16
+MANSECT=l:1:8:3p:2:3:4:5:6:7:9:0p:1p:tcl:n:p:o
+MAIL=/usr/spool/mail/rountree
+PATH=/usr/local/tools/papiex-1.0.3/bin:/usr/local/tools/monitor-1.0/bin:/usr/local/tools/papi-4.2.1/bin:/g/g24/rountree/local/install/byobu-4.54/bin:/usr/local/tools/mvapich2-intel-debug-1.7/bin:/usr/global/tools/totalview/m/rzmerl/dflt/bin:/g/g24/rountree/local/install/byobu-4.54/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:.:/g/g24/rountree/local/bin:/g/g24/rountree/local/scripts:/g/g24/rountree/local/bin:/g/g24/rountree/local/scripts
+STY=3952.byobu
+SLURM_JOB_ID=665650
+BYOBU_DARK=black
+PSUB_JOBID=665650
+TOTALVIEW=totalview
+_dk_rl=-1
+PWD=/g/g24/rountree/A/debugNAS/NAS-MZ/SP-MZ/power/2013_01_16_00_31_15_454721366
+PKG_MINW_MINS=0x38198
+EDITOR=/bin/vi
+LANG=en_US.UTF-8
+MODULEPATH=/usr/share/Modules/modulefiles:/etc/modulefiles:/opt/modules/modulefiles
+GLOGIN=1
+LOADEDMODULES=
+KDEDIRS=/usr
+SLURM_NODEID=0
+READ_WRITE=0
+DRAM_MINW_MINS=0x38078
+SLURM_SUBMIT_DIR=/p/lscratchrza/rountree/debugNAS/NAS-MZ/SP-MZ/power
+DK_SUBNODE=bash/chaos_5_x86_64_ib:bash:chaos_5_x86_64_ib:.
+SLURM_TASK_PID=32554
+SLURM_CPUS_ON_NODE=16
+MSR_PKG_POWER_LIMIT=0x0
+SLURM_PROCID=0
+ENVIRONMENT=BATCH
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+_dk_inuse=papiex-1.0.3.0 monitor-1.0.1 papi-4.2.1.1 mvapich2-intel-debug-1.7.0 lcinit.0 tv.1 dkcomplete.1 reuse.1
+HISTCONTROL=ignoredups
+KRB5CCNAME=FILE:/tmp/krb5cc_52312_B98258
+SLURM_JOB_NODELIST=rzmerl129
+SHLVL=4
+HOME=/g/g24/rountree
+SLURM_LOCALID=0
+KMP_AFFINITY=scatter
+SLURM_JOB_CPUS_PER_NODE=16
+BYOBU_LIGHT=white
+SLURM_GTIDS=0
+PSUB_WORKDIR=/p/lscratchrza/rountree/debugNAS/NAS-MZ/SP-MZ/power
+TMP=/var/tmp/rountree
+LOGNAME=rountree
+QTLIB=/usr/lib64/qt-3.3/lib
+CVS_RSH=ssh
+WINDOW=2
+_dk_isatty=1
+SSH_CONNECTION=134.9.48.244 43207 134.9.48.100 622
+BYOBU_PAGER=less
+TURBO_ENABLE=1
+SAMPLE=0
+SLURM_JOB_NUM_NODES=1
+MODULESHOME=/usr/share/Modules
+SYS_TYPE=chaos_5_x86_64_ib
+BYOBU_ACCENT=magenta
+OMP_NUM_THREADS=4
+LESSOPEN=|/usr/bin/lesspipe.sh %s
+BYOBU_PREFIX=/g/g24/rountree/local/install/byobu-4.54
+FUNC_INTERCEPT=0
+MSR_DRAM_POWER_LIMIT=0x0
+BYOBU_HIGHLIGHT=red
+MSR_RANK_MOD=1
+G_BROKEN_FILENAMES=1
+DK_NODE=/usr/local/dpkg-db/info:/usr/local/etc/dotkits:/usr/global/tools/dotkit
+DK_ROOT=/usr/local/tools/dotkit/dotkit
+module=() {  eval `/usr/bin/modulecmd bash $*`
+}
+_=/bin/env
+OLDPWD=/g/g24/rountree/A/debugNAS/NAS-MZ/SP-MZ/power
