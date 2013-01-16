@@ -2,9 +2,9 @@
 
 #mkdir bin
 
-#make sp-mz CLASS=A NPROCS=16
+make sp-mz CLASS=A NPROCS=16
 
-make -j8 sp-mz CLASS=B NPROCS=1
+make sp-mz CLASS=B NPROCS=1
 #make -j8 sp-mz CLASS=B NPROCS=2
 #make -j8 sp-mz CLASS=B NPROCS=4
 #make -j8 sp-mz CLASS=B NPROCS=8
